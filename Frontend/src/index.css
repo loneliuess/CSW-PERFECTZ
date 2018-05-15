@@ -1,0 +1,18 @@
+html, body { 
+   height: 90%; 
+   margin: 20px;
+   padding: 0;
+   font-family: sans-serif;
+}
+wrapper {
+   display: block;
+   min-height: 100%; /* real browsers */
+   height: auto !important; /* real browsers */
+   height: 100%; /* IE6 bug */
+   margin-bottom: -20px; /* กำหนด margin-bottom ให้ติดลบเท่ากับความสูงของ footer */
+}
+footer {
+   height: 20px; /* ความสูงของ footer */
+   display: block;
+   text-align: center;
+}
